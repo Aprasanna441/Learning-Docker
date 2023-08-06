@@ -5,7 +5,7 @@ WORKDIR /app
 
 COPY requirements.txt requirements.txt
 
-#day1
+#main
 RUN pip install -r requirements.txt
 COPY . /app/
 
